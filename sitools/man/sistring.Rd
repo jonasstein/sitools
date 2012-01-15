@@ -1,34 +1,21 @@
 \name{sistring}
 \alias{sistring}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Function to convert number to string with SI prefixes}
-\description{
-  convert a number to a string using SI prefixes
-}
-\usage{
-sistring(number)
-}
-\arguments{
-  \item{number}{number to convert
-%%     ~~Describe \code{number} here~~
-}
-}
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
+\description{convert a number to a string using SI prefixes}
+\usage{sistring(number)}
+\arguments{\item{number}{number to convert}}
+\details{Main application of this function is to get nice strings to
+  place at axis ticks. In this case some prefixes like deka are not
+  used. This function will only generate 10^(3*n) prefixes at the
+  moment. This may change soon.}
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
-\item{comp1}{string using SI prefixes}
+  \item{comp1}{string using SI prefixes}
 }
 \references{
 http://www.bipm.org/en/si/si_brochure/chapter3/prefixes.html
 }
 \author{
-Jonas Stein
+Jonas Stein \email{news@jonasstein.de} \url{https://github.com/jonasstein/sitools}
 }
 \note{
 %%  ~~further notes~~
@@ -71,7 +58,11 @@ function(number){
   return(sistring)
   }
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 } 
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+
+\keyword{ ~kwd1 } utilities
+\keyword{ ~kwd2 } misc
+\keyword{ ~kwd3 } aplot
+\keyword{ ~kwd4 } methods
+
+
+

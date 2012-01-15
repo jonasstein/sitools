@@ -17,7 +17,7 @@ Package: \tab sitools\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
 Date: \tab 2012-01-09\cr
-License: \tab gpl3 \cr
+License: \tab GPL-3 \cr
 LazyLoad: \tab yes\cr
 }
 ~~ An overview of how to use the package, including the most important ~~
@@ -27,10 +27,9 @@ LazyLoad: \tab yes\cr
   Jonas Stein, thanks to Ben Tupper
 
 Maintainer: Jonas Stein <news@jonasstein.de>
-~~ The author and/or maintainer of the package ~~
 }
 \references{
-  http://www.bipm.org/en/si/
+  \url{http://www.bipm.org/en/si/}
 }
 \keyword{ package }
 \seealso{
