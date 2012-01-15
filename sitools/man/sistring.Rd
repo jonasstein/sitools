@@ -8,24 +8,14 @@
   place at axis ticks. In this case some prefixes like deka are not
   used. This function will only generate 10^(3*n) prefixes at the
   moment. This may change soon.}
-\value{
-  \item{comp1}{string using SI prefixes}
-}
-\references{
-http://www.bipm.org/en/si/si_brochure/chapter3/prefixes.html
-}
-\author{
-Jonas Stein \email{news@jonasstein.de} \url{https://github.com/jonasstein/sitools}
-}
-\note{
-%%  ~~further notes~~
-}
+\value{  \item{comp1}{string using SI prefixes}}
+\references{http://www.bipm.org/en/si/si_brochure/chapter3/prefixes.html}
+\author{Jonas Stein \email{news@jonasstein.de} \url{https://github.com/jonasstein/sitools}}
+\note{}
 
-%% ~Make other sections like Warning with \section{Warning }{....} ~
+\section{Warning}{package is still pre alpha}
 
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
+\seealso{}
 \examples{
 > sistring(c(1e5, 3.5e19, 0.004))
 [1] "100 k" "35 E"  "4 m"
@@ -63,6 +53,3 @@ function(number){
 \keyword{ ~kwd2 } misc
 \keyword{ ~kwd3 } aplot
 \keyword{ ~kwd4 } methods
-
-
-
