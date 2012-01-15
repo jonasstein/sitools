@@ -5,12 +5,7 @@ Version: 1.0
 Date: 2012-01-09
 Author: Jonas Stein, Ben Tupper
 Maintainer: Jonas Stein <news@jonasstein.de>
-Description: Format a number (or a list of numbers) 
-to a string (or a list of strings) with SI prefix.
-
-sistring(0.003, 5e9) 
-[1] "3 m", "5 G"
-
-
+Description: Format a number (or a list of numbers) to a string (or a list of strings) with SI prefix.
 License: GPL3
 LazyLoad: yes
+

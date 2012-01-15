@@ -1,18 +1,15 @@
 \name{sistring}
 \alias{sistring}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
-%%  ~~function to do ... ~~
-}
+\title{Function to convert number to string with SI prefixes}
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+  convert a number to a string using SI prefixes
 }
 \usage{
 sistring(number)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{number}{
+  \item{number}{number to convert
 %%     ~~Describe \code{number} here~~
 }
 }
@@ -25,12 +22,13 @@ sistring(number)
 %%  \item{comp1 }{Description of 'comp1'}
 %%  \item{comp2 }{Description of 'comp2'}
 %% ...
+\item{comp1}{string using SI prefixes}
 }
 \references{
-%% ~put references to the literature/web site here ~
+http://www.bipm.org/en/si/si_brochure/chapter3/prefixes.html
 }
 \author{
-%%  ~~who you are~~
+Jonas Stein
 }
 \note{
 %%  ~~further notes~~
@@ -42,9 +40,10 @@ sistring(number)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
+> sistring(c(1e5, 3.5e19, 0.004))
+[1] "100 k" "35 E"  "4 m"
+
+
 
 ## The function is currently defined as
 function(number){
@@ -74,5 +73,5 @@ function(number){
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }
+\keyword{ ~kwd1 } 
 \keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

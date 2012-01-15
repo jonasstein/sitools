@@ -3,11 +3,12 @@
 \alias{sitools}
 \docType{package}
 \title{
-What the package does (short line)
+SI tools
 ~~ package title ~~
 }
 \description{
-More about what it does (maybe more than one line)
+tools to handle prefixes as defined in Système International d'Unités.
+
 ~~ A concise (1-5 lines) description of the package ~~
 }
 \details{
@@ -16,23 +17,21 @@ Package: \tab sitools\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
 Date: \tab 2012-01-09\cr
-License: \tab What license is it under?\cr
+License: \tab gpl3 \cr
 LazyLoad: \tab yes\cr
 }
 ~~ An overview of how to use the package, including the most important ~~
 ~~ functions ~~
 }
 \author{
-Who wrote it
+  Jonas Stein, thanks to Ben Tupper
 
-Maintainer: Who to complain to <yourfault@somewhere.net>
+Maintainer: Jonas Stein <news@jonasstein.de>
 ~~ The author and/or maintainer of the package ~~
 }
 \references{
-~~ Literature or other references for background information ~~
+  http://www.bipm.org/en/si/
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in ~~
-~~ the R documentation directory ~~
 \keyword{ package }
 \seealso{
 ~~ Optional links to other man pages, e.g. ~~
