@@ -1,9 +1,9 @@
-* Edit the help file skeletons in 'man', possibly combining help files
-  for multiple functions.
-* Put any C/C++/Fortran code in 'src'.
-* If you have compiled code, add a .First.lib() function in 'R' to load
-  the shared library.
-* Run R CMD build to build the package tarball.
-* Run R CMD check to check the package tarball.
+* package for GNU-R Statistical Computation Environment
 
-Read "Writing R Extensions" for more information.
+* Todo
+ - add constants
+ - add float2sistring
+ - add sistring2float
+
+* Thanks
+ - IRC Channel freenode #R
