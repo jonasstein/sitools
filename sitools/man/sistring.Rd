@@ -14,8 +14,10 @@
 
 \section{Warning}{package is still pre alpha}
 \examples{
-> sistring(c(1e5, 3.5e19, 0.004))
-[1] "100 k" "35 E"  "4 m"
+numbers <- c(1e5, 3.5e19, 0.004)
+sistring(numbers)
+
+sistring(10000)
 }
 
 \keyword{utilities}
