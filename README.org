@@ -4,9 +4,7 @@
  - add constants
  - add float2sistring
  - add sistring2float
- - generate Makefile for
-   R CMD check sitools
-   R CMD build sitools
-   and more...
+ - improve Makefile
+
 * Thanks
  - IRC Channel freenode #R
