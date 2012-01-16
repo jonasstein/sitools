@@ -24,6 +24,8 @@ sistring <- function(number){
 }
 
 
-  
 package.skeleton(list=c("sistring"), name="sitools")
 
+kilo <- 1e3
+milli <- 1e-3
+save(file="siprefixvalues.rda", list=c("kilo","milli"))
