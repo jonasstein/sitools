@@ -6,6 +6,6 @@ Date: 2012-01-09
 Author: Jonas Stein, Ben Tupper
 Maintainer: Jonas Stein <news@jonasstein.de>
 Description: Format a number (or a list of numbers) to a string (or a list of strings) with SI prefix.
-License: GPL3
+License: GPL-3
 LazyLoad: yes
 
