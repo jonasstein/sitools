@@ -18,7 +18,7 @@ function(number){
   if (length(ix) > 0 ) {
     sistring <- paste(number/lut[ix], pre[ix])
   } else {
-    sistring <- as.character(x)
+    sistring <- as.character(number)
   }
 
   return(sistring)
