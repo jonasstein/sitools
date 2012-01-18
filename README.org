@@ -1,10 +1,19 @@
 * package for GNU-R Statistical Computation Environment
 
-* Todo
+
+* DONE
  - add constants
+
+* Todo
  - add float2sistring
  - add sistring2float
  - improve Makefile
 
-* Thanks
+* Thanks to
  - IRC Channel freenode #R
+ - R Mailinglist 
+ - Rui Barradas (Bugfix)
+ - William Dunlap (Bugfix)
+ - Ben Tupper (initial convert function)
+
+* Please leave me a note, if i missed to mention you here. 
