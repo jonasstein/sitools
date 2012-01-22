@@ -5,8 +5,8 @@
  - add constants
 
 * Todo
- - add float2sistring
- - add sistring2float
+ - add float2sistring (f2si)
+ - add sistring2float (si2f)
  - improve Makefile
 
 * Thanks to

@@ -1,4 +1,4 @@
-sistring <-
+f2si <-
 function(number){
 
   lut <-  c(1e-24, 1e-21, 1e-18, 1e-15,

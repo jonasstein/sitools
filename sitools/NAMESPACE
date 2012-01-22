@@ -3,4 +3,4 @@ export("yotta", "zetta", "exa", "peta", "tera",
        "deci", "centi", "milli", "micro", "nano",
        "pico", "femto", "atto", "zepto", "yocto")
 
-export("sistring")
+export("f2si")

@@ -5,7 +5,7 @@ Version: 1.0
 Date: 2012-01-09
 Author: Jonas Stein, Ben Tupper
 Maintainer: Jonas Stein <news@jonasstein.de>
-Description: Format a number (or a list of numbers) to a string (or a list of strings) with SI prefix.
+Description: Format a number (or a list of numbers) to a string (or a list of strings) with SI prefix. Use SI prefixes as constants like (4 * milli)^2
 License: GPL-3
 LazyLoad: yes
 LazyData: yes

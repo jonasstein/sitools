@@ -22,5 +22,5 @@ Maintainer: Jonas Stein <news@jonasstein.de>
 \references{\url{http://www.bipm.org/en/si/}}
 \keyword{ package }
 \examples{
-sistring(0.001)
+f2si(0.001)
 }
