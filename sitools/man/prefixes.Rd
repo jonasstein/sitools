@@ -1,4 +1,4 @@
-\name{prefixes}
+\name{kilo}
 \alias{yotta}
 \alias{zetta}
 \alias{exa}
