@@ -1,4 +1,4 @@
-\name{sistring}
+\name{prefixes}
 \alias{yotta}
 \alias{zetta}
 \alias{exa}
@@ -33,12 +33,12 @@
 \examples{
 library(sitools)
 
-# volume of a dice in metres
+# dice have a volume of (in metres)
 a <- 1 * centi
 volumedice <- a^3
 volumedice
 
-# how many dices fit in a box with
+# how many dice fit in a box with
 # 10 cm height
 # 20 cm length 
 # 30 cm width
