@@ -1,0 +1,3 @@
+kilo <- 1000
+milli <- 0.001
+export(kilo, milli)
