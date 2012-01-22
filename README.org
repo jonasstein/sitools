@@ -12,6 +12,7 @@
 * Thanks to
  - IRC Channel freenode #R
  - R Mailinglist 
+ - Uwe Ligges (suggested NAMESPACE)
  - Rui Barradas (Bugfix)
  - William Dunlap (Bugfix)
  - Ben Tupper (initial convert function)
