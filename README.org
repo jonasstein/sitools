@@ -3,11 +3,12 @@
 
 * DONE
  - add constants
+ - add float2sistring (f2si)
 
 * Todo
- - add float2sistring (f2si)
  - add sistring2float (si2f)
  - improve Makefile
+ - evaluate hints from http://thread.gmane.org/gmane.comp.lang.r.general/250925/focus=250952
 
 * Thanks to
  - IRC Channel freenode #R
