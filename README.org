@@ -1,5 +1,9 @@
 * package for GNU-R Statistical Computation Environment
 
+* installation in userspace
+start R console and type:
+> install.packages("sitools")
+
 
 * DONE
  - add constants
