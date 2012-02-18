@@ -1,6 +1,6 @@
 \name{f2si}
 \alias{f2si}
-\title{Function to convert number to string with SI prefixes}
+\title{f2si converts floating-point number to a string with SI prefixes}
 \description{Convert a single or a list of float or integer
   to a string using SI prefixes.}
 \usage{f2si(number)}

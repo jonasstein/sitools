@@ -8,8 +8,8 @@
 \tabular{ll}{
 Package: \tab sitools\cr
 Type: \tab Package\cr
-Version: \tab 1.1\cr
-Date: \tab 2012-01-22\cr
+Version: \tab 1.2\cr
+Date: \tab 2012-01-23\cr
 License: \tab GPL-3 \cr
 LazyLoad: \tab yes\cr
 }

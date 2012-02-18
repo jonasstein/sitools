@@ -10,7 +10,7 @@ build :
 
 # upload is only for the maintainer.
 upload : 
-	lftp 
+	lftp -f upload.lftp
 
 clean : 
 	rm -dR $(packagename).Rcheck

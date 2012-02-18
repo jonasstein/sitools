@@ -21,8 +21,6 @@
 \alias{yocto}
 \title{SI prefixes}
 \description{SI prefixes are defined as constant factors like kilo <- 1000}
-\usage{library(sitools)
-3.4 * kilo}
 \details{SI prefixes are defined as constant factors like kilo <- 1000
   The use of constants for SI prefixes will make your code readable.
   It reduces the risk of mistakes and supports the usage of SI
