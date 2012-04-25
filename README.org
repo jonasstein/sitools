@@ -8,12 +8,16 @@ start R console and type:
 * DONE
  - add constants
  - add float2sistring (f2si)
+ - add parameter for unit string
+ - add parameter for seperator
+ - added hint, that it works only for positive values at the moment
 
 * Todo
  - add sistring2float (si2f)
  - improve Makefile
  - evaluate hints from http://thread.gmane.org/gmane.comp.lang.r.general/250925/focus=250952
-
+ - enable negative values
+   
 * Thanks to
  - IRC Channel freenode #R
  - R Mailinglist 
