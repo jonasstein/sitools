@@ -27,10 +27,6 @@ function(number, unit=""){
   return(sistring)
 }
 
-fl2si <- function(floatlist, sep=" ", unit=""){
-  return(sapply(floatlist, f2si))
-}
-
 # test vector
 #a <- 2.34*10^(-22:22)
 #b <-  2.34*10^((-8:8)*3)
