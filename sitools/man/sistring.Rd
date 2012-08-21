@@ -3,9 +3,10 @@
 \title{f2si converts floating-point number to a string with SI prefixes}
 \description{Convert a single or a list of float or integer
   to a string using SI prefixes.}
-\usage{f2si(number, sep=" ", unit="")}
+\usage{f2si(number, unit="")}
 \arguments{\item{number}{number to convert}
-  \item{sep}{seperation string between number and the SI prefix.}
+  \item{sep}{seperation string between number and the SI prefix. FIXME
+    This parameter is currently disabled and needs new code}
   \item{unit}{string to attach behind the SI prefix}}
 \details{Main application of this function is to get nice strings to
   place at axis ticks. In this case some prefixes like deka are not
