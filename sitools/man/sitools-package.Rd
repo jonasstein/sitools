@@ -16,7 +16,7 @@ LazyLoad: \tab yes\cr
 
 }
 \author{
-  Jonas Stein, thanks to Ben Tupper
+  Jonas Stein, thanks to Ben Tupper, Roland Fuß
 Maintainer: Jonas Stein <news@jonasstein.de>
 }
 \references{\url{http://www.bipm.org/en/si/}}
