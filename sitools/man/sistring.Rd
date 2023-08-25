@@ -14,6 +14,9 @@
 \references{http://www.bipm.org/en/si/si_brochure/chapter3/prefixes.html}
 \author{Jonas Stein \email{news@jonasstein.de} \url{https://github.com/jonasstein/sitools}}
 
+\seealso{
+  \code{\link{si2f}}.
+}
 \section{Warning}{package is still in alpha stage}
 \examples{
 library(sitools)
