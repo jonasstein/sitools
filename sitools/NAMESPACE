@@ -1,4 +1,5 @@
 importFrom(stringr,str_match)
+importFrom(stringr,str_trim)
 importFrom(rex,rex)
 
 export("yotta", "zetta", "exa", "peta", "tera",
