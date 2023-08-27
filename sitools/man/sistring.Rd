@@ -10,10 +10,13 @@
   place at axis ticks. In this case some prefixes like deka are not
   used. This function will only generate 10^(3*n) prefixes for
   positive numbers at the moment. This may change soon.}
-\value{  \item{comp1}{string using SI prefixes}}
-\references{http://www.bipm.org/en/si/si_brochure/chapter3/prefixes.html}
+\value{string using SI prefixes}
+\references{https://www.bipm.org/en/measurement-units/si-prefixes}
 \author{Jonas Stein \email{news@jonasstein.de} \url{https://github.com/jonasstein/sitools}}
 
+\seealso{
+  \code{\link{si2f}}.
+}
 \section{Warning}{package is still in alpha stage}
 \examples{
 library(sitools)

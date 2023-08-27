@@ -1,12 +1,14 @@
 Package: sitools
 Type: Package
-Title: Format numbers strings with SI prefix and provide SI prefixes as constants.
+Title: Format numbers strings with SI prefix and provide SI prefixes as constants
 Version: MyVERSION
 Date: MyDATE
-Author: Jonas Stein, Ben Tupper
+Author: Jonas Stein, Ben Tupper, Ryan C. Thompson
 Maintainer: Jonas Stein <news@jonasstein.de>
-Description: Format a list of numbers to a list of strings with SI prefixes. Clean up R code with SI prefixes (4 * milli)^2
+Description: Format a list of numbers to a list of strings with SI prefixes. Clean up R code with SI prefixes, e.g. (4 * milli)^2.
 License: GPL-3
 LazyLoad: yes
 LazyData: yes
-
+Imports:
+    stringr,
+    rex
